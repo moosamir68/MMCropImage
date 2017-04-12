@@ -1,0 +1,6 @@
+framework module Pods_MMCropImage_Example_MMCropImage_Tests {
+  umbrella header "Pods-MMCropImage_Example-MMCropImage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

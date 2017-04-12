@@ -7,6 +7,7 @@
 //
 
 #import "MMViewController.h"
+#import <MMCropImage/MMCropImage.h>
 
 @interface MMViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    MMCropImage *cropImage = [[MMCropImage alloc] init];
+    [cropImage printName:@"Moosa"];
+    
 }
 
 - (void)didReceiveMemoryWarning

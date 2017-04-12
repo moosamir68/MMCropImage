@@ -4,7 +4,7 @@ target 'MMCropImage_Example' do
   pod 'MMCropImage', :path => '../'
 
   target 'MMCropImage_Tests' do
-    inherit! :search_paths
+    pod 'MMCropImage', :path => '../'
 
     
   end

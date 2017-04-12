@@ -1,0 +1,6 @@
+framework module MMCropImage {
+  umbrella header "MMCropImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
